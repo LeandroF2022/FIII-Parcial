@@ -1,45 +1,3 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
 body {
   display: flex;
   justify-content: center;
@@ -93,54 +51,50 @@ input {
   text-align: center;
 }
 
-.color-box {
+.animal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.animal-card img {
   width: 200px;
   height: 200px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 18px;
-  border-radius: 8px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-.blue {
-  background-color: blue;
+.animal-card p,
+.animal-card h2 {
+  text-align: center;
 }
 
-.red {
-  background-color: red;
+.gato {
+  background-image: url('https://fotografias.lasexta.com/clipping/cmsimages02/2019/01/25/DB41B993-B4C4-4E95-8B01-C445B8544E8E/104.jpg?crop=2771,2771,x692,y0&width=1200&height=1200&optimize=low&format=webply');
 }
 
-.yellow {
-  background-color: yellow;
+.perro {
+  background-image: url('https://www.agrocalidad.gob.ec/wp-content/uploads/2020/08/perr.jpg');
 }
 
-.green {
-  background-color: green;
+.pajaro {
+  background-image: url('https://www.aviariojp.org/wp-content/uploads/2020/04/aves-y-pajaros-que-hablan.jpg');
 }
 
-.orange {
-  background-color: orange;
+.leon {
+  background-image: url('https://biblioteca.acropolis.org/wp-content/uploads/2017/02/simbolo-leon.jpg');
 }
 
-.purple {
-  background-color: purple;
+.tigre {
+  background-image: url('https://www.ngenespanol.com/wp-content/uploads/2022/09/tigre-de-bengala-el-gran-felino-de-las-selvas-de-la-india.jpg');
 }
 
-.pink {
-  background-color: pink;
+.jirafa {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Giraffa_camelopardalis_reticulata_01.JPG');
 }
 
-.teal {
-  background-color: teal;
-}
-
-.brown {
-  background-color: brown;
-}
-
-.gray {
-  background-color: gray;
+.oso {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f4/Brown_bear_%28Ursus_arctos%29%2C_Viiksimo%2C_Kainuu_region%2C_Finland%2C_16_June_2018_%2843094873292%29.jpg');
 }

@@ -1,14 +1,12 @@
-// import React from 'react'
+// import React from 'react';
 
-// const Card = ({name, color}) => {
-
+// const Card = ({ animal, image }) => {
 //   return (
-//     <div>
-//         <h3>Hola {name}!</h3>
-//         <h3>Tu color favorito es</h3>
-//         <span style={{backgroundColor: color}}>{color}</span>
+//     <div className={`animal-card ${animal}`}>
+//       <img src={image} alt={animal} />
+//       <h2>{animal}</h2>
 //     </div>
-//   )
-// }
+//   );
+// };
 
-// export default Card
+// export default Card;
