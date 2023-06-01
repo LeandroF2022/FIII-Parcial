@@ -67,7 +67,7 @@ function App() {
       <h1>Ingresa los siguientes datos</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Tu Nombre:</label>
+          <label>Tu Nombre :</label>
           <input
             type="text"
             value={name}
